@@ -14,6 +14,7 @@ public class GreetingController {
     private final AtomicLong counter = new AtomicLong();
 
     // http://localhost:8080/greeting?name=Luccas
+    // http://localhost:8080/math/sum/3/5
 
     @RequestMapping("/greeting")
     public Greeting greeting(
